@@ -22,7 +22,7 @@ const settingsMenu = [
   ]
 DATABASE_URL = process.env.DATABASE_URL === undefined ? './bot.db' : process.env.DATABASE_URL;
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
-SESSION_ID: process.env.SESSION_ID || "fcVwWRSK#r9hJu-Ytm0Mff8AWxOrBXQVjNStoAVtXIV74rrEiTMA;
+SESSION_ID: process.env.SESSION_ID || "fCh00aba#3w6OWoca9gRlXXQmxj_s0G0aFutCD1dn9tmsAXCQIZA;
 const { Sequelize } = require('sequelize');
 const isVPS = !(__dirname.startsWith("/rgnk") || __dirname.startsWith("/skl"));
 const isHeroku = __dirname.startsWith("/skl");
